@@ -8,7 +8,7 @@ const readline = require('readline').createInterface({
   
 
 
-const dbURL = 'mongodb+srv://gaurav:gaurav@cluster0.qcdg3t5.mongodb.net/users'
+const dbURL = 'mongodb+srv://gaurav:gaurav@cluster0.qcdg3t5.mongodb.net/git-db'
 mongoose.connect(dbURL, {useNewUrlParser: true, useUnifiedTopology: true})
 .then((result) => console.log(",  __ __ __ __  [MON..]=>   +++connected+++"))
 .catch((err) => console.log("error => " + err))
